@@ -44,7 +44,7 @@
     background-color: crimson;
     color: #fff;
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1em;
     opacity: .7;
     transition: opacity .3s ease;
     cursor: pointer;
@@ -63,5 +63,9 @@
 @media screen and (max-width:420px){
     .login-form{
         width: 90%;
+        padding: 50px 20px;
+    }
+    .control input{
+        padding: 12px;
     }
 }
